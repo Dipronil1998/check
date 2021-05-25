@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome|Register</title>
+		<link rel="stylesheet" type="text/css" href="reg.css">
+		
+</head>
+<body>
+		<div class="container">
+			<div class="title">Registration</div>
+		<form>
+			<div class="Registration">
+				<div class="user">
+						<label class="details">First Name </label>
+						<input type="text" name="Firstname">
+						<label class="details">Middle Name </label>
+						<input type="text" name="Middlename">
+						<label class="details">Last Name </label>
+						<input type="text" name="lastname">
+				
+				</div>
+				<div class="user">
+					<label>Email Id </label>
+					<input type="text">
+					<label>@</label>
+					<select>
+						<option></option>
+						<option>gmail.com</option>
+						<option>outlook.com</option>
+						<option>yahoo.com</option>
+					</select>
+				</div>
+				<div class="user">
+					<label>Phone No</label>
+					<input type="number">
+				</div>
+				<div class="user gender">
+					<label>Gender</label>
+  							<input type="radio" id="male" name="gender" value="male">
+  							<label for="male">Male</label>
+  							<input type="radio" id="female" name="gender" value="female">
+  							<label for="female">Female</label>
+  							<input type="radio" id="other" name="gender" value="other">
+  							<label for="other">Prefer Not To Say</label>
+				</div>
+				<div class="user">
+					<label>D.O.B</label>
+					<input type="date">
+				</div>
+				<div class="user">
+					<label>Address</label>
+					<textarea rows="4" cols="50">Enter text here...</textarea>
+				</div>
+				<div class="user">
+					<label for="course">Courses Applied For:</label>
+  							<select name="course" id="course">
+  								<option value="course">Biochemistry</option>
+  								<option value="course">Biophisics</option>
+  							</select>
+				</div>
+				<div class="user">
+					<label>Password</label>
+					<input type="Password">
+				</div>
+				<div class="user">
+					<label> Confirm Password</label>
+					<input type="Password">
+				</div>
+				<div class="button">
+					<button type="button" onclick="alert('Otp has been sent')">Submit</button>	
+					<button type="button" onclick="alert('Form has been Reset')">Reset</button>
+					<button type="button">Cancel</button>
+					<div class="CS">
+						<p>Already have an account? <a href="#">Sign in</a>.</p>
+  				</div>	
+					
+				</div>
+				
+			</div>
+		</form>
+	</div>
+</body>
+</html>
